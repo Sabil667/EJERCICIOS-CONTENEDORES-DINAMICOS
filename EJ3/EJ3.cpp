@@ -14,6 +14,11 @@ int main(){
     cout<<endl;
 
     sort(numeros.begin(), numeros.end());
+    cout<<"Vector ordenado: ";
+    for(const auto& num : numeros){
+        cout<<num<<" ";
+    }
+    cout<<endl;
 
 
 
