@@ -26,6 +26,14 @@ int main(){
     for(const auto& num : numeros){
         cout<<num<<" ";
     }
+    cout<<endl;
+
+    numeros /= 3.0;
+    cout<<"Valarray despues de dividir por 3 todos los elementos: ";
+    for(const auto& num : numeros){
+        cout<<num<<" ";
+    }
+    cout<<endl;
 
 
 
