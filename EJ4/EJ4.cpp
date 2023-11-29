@@ -21,6 +21,11 @@ int main(){
     }
     cout<<endl;
 
+    numeros*=2.0;
+    cout<<"Valarray despues de multiplicar por 2 todos los elementos: ";
+    for(const auto& num : numeros){
+        cout<<num<<" ";
+    }
 
 
 
