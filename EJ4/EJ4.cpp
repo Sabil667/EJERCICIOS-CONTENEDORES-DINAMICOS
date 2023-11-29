@@ -9,6 +9,10 @@ int main(){
     for(const auto& num : numeros){
         cout<<num<<" ";
     }
+    cout<<endl;
+
+    double suma = numeros.sum();
+    cout<<"Suma de todos los elementos: "<<suma<<endl;
 
 
 
