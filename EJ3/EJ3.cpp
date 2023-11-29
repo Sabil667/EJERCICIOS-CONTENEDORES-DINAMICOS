@@ -1,0 +1,15 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+
+int main(){
+    vector<int> numeros= {44, 12, 67, 23, 87, 35, 54, 77, 92, 10};
+    cout<<
+
+
+
+
+}
