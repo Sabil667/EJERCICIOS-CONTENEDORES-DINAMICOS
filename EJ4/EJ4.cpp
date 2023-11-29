@@ -14,6 +14,13 @@ int main(){
     double suma = numeros.sum();
     cout<<"Suma de todos los elementos: "<<suma<<endl;
 
+    numeros-=1.0;
+    cout<<"Valarray despues de restar 1 a todos los elementos: ";
+    for(const auto& num : numeros){
+        cout<<num<<" ";
+    }
+    cout<<endl;
+
 
 
 
