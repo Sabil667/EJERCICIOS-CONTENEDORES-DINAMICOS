@@ -9,6 +9,11 @@ int main(){
     stack<double, list<double>> numerosStack(numeros);
 
     cout << "Lista original: ";
-    for(const auto&)
+    for(const auto& num : numeros){
+        cout << num << " ";
+    }
+    cout << endl;
+
+
 
 }
