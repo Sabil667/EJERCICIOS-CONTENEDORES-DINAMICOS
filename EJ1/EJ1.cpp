@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-vcetor<int> numeros;
+vector<int> numeros;
 
 numeros.push_back(5);
 numeros.push_back(10);
@@ -15,10 +15,10 @@ numeros.push_back(30);
 
 cout<<"Elementos del vector: "<<endl;
 for(vector<int>::iterator it=numeros.begin(); it !=numeros.end(); ++it){
-    cout<<*it<<"";
+    cout<<*it<<" ";
 
 
 
-
-
+}
+    cout<<endl;
 }
