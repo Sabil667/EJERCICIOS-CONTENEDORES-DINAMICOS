@@ -14,6 +14,9 @@ numeros.push_back(25);
 numeros.push_back(30);
 
 cout<<"Elementos del vector: "<<endl;
+for(vector<int>::iterator it=numeros.begin(); it !=numeros.end(); ++it){
+    cout<<*it<<"";
+
 
 
 
