@@ -14,6 +14,14 @@ int main(){
     }
     cout << endl;
 
+    numerosStack.push(6.6);
+    numerosStack.push(7.7);
+
+    cout<< "Pila despues de push: ";
+    while (!numerosStack.empty()){
+        cout << numerosStack.top() << " ";
+        numerosStack.pop();
+    }
 
 
 }
