@@ -20,6 +20,10 @@ int main(){
     }
     cout<<endl;
 
+    auto max = max_element(numeros.begin(), numeros.end());
+    cout<<"El maximo es: "<<*max<<endl;
+
+
 
 
 
