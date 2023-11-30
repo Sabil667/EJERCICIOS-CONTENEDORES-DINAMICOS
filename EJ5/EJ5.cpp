@@ -21,6 +21,12 @@ int main(){
     }
     cout << endl;
 
+    cout << "Cuadrados: ";
+    for (const auto& num : *resultado) {
+        cout << num << " ";
+    }
+    cout << endl;
+
 
 
 }
