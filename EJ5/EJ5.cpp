@@ -15,5 +15,12 @@ int main(){
         resultado->push_back(cuadrado(num));
     });
 
+    cout << "Numeros originales: ";
+    for (const auto& num : numeros) {
+        cout << num << " ";
+    }
+    cout << endl;
+
+
 
 }
