@@ -6,13 +6,7 @@
 using namespace std;
 
 int main(){
-    vector<double> numeros = {1.0, 2.0, 3.0, 4.0, 5.0};
-    transform(numeros.begin(), numeros.end(), numeros.begin(), [](double num){return num*2;});
+    auto cuadrado = [](int num) -> int { return num * num; };
 
-    cout<< "Numeros originales: ";
-    for(const auto& num : numeros){
-        cout<<num<<" ";
-    }
-    cout<<endl;
 
 }
