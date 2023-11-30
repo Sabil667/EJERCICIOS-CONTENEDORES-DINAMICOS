@@ -1,4 +1,4 @@
-set(BOOST_ROOT "C:UsersUsuarioDesktopboost_1_83_0")
+set(BOOST_ROOT "C:\\Users\\Usuario\\CLionProjects\\EJERCICIOS-CONTENEDORES-DINAMICOS")
 set(BOOST_INCLUDEDIR "${BOOST_ROOT}/include")
 set(BOOST_LIBRARYDIR "${BOOST_ROOT}/lib")
 
